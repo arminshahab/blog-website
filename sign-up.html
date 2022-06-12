@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Armin Shahab</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/incognito.png">
+</head>
+
+<body>
+  <header>
+    <div class="title-image">
+      <img src="images/boy.png" alt="boy">
+      <h1>Armin Shahab Abdullah 2021</h1>
+    </div>
+  </header>
+  <nav class="nav-area">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="blog.html">Blogs</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="#">Layout Design <img width="10px" src="images/white-arrow.png"></a>
+        <ul>
+          <li><a href="float-layout.html">Float Layout with Side nav</a></li>
+          <li><a href="flexbox-layout.html">Flexbox Layout with Side nav</a></li>
+          <li><a href="grid-layout.html">Blog Grid view</a></li>
+        </ul>
+      </li>
+      <li><a class="current" href="sign-up.html">Sign Up</a></li>
+      <li><a href="sign-in.html">Sign In</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Sign Up form</h2>
+    <form class="sign-up-form" action="index.html" method="post">
+
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="username">
+
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" name="fullname" placeholder="fullname">
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="enter your email">
+
+      <label for="tel">Phone Number</label>
+      <input type="tel" id="tel" name="phone number" placeholder="phone number">
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="password">
+
+      <label for="date">Date Of Birth</label>
+      <input type="date" id="date" name="date of birth" placeholder="date of birth">
+
+      <label for="color">Profile colour</label>
+      <input type="color" id="color" name="profile color" placeholder="pick a color">
+
+      <fieldset>
+        <legend>
+          <p>Martial Status</p>
+        </legend>
+        <input type="radio" id="single" name="status" value="single">
+        <label for="single">single</label><br />
+        <input type="radio" id="married" name="status" value="married">
+        <label for="married">married</label><br>
+        <input type="radio" id="private" name="status" value="private">
+        <label for="private">prefer not to say</label>
+      </fieldset>
+
+      <label for="children">No. Of Children</label>
+      <select id="children" name="children">
+        <option value="none">none</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+      </select>
+
+      <label for="degree">Choose your degrees</label>
+      <select id="degree" name="degree" multiple>
+        <option value="Diploma">Diploma</option>
+        <option value="Bachelore of science (BSc)">Bachelore of science (BSc)</option>
+        <option value="Bachelore of Arts (BA)">Bachelore of Arts (BA)</option>
+        <option value="High Diploma">High Diploma</option>
+        <option value="Master of Science (MSc)">Master of Science (MSc)</option>
+      </select>
+
+      <label for="about">About Yourself</label>
+      <textarea name="about" id="about" rows="4" cols="80" placeholder="About Yourself"></textarea>
+
+      <label for="file">Upload your CV</label>
+      <input type="file" name="file">
+
+      <fieldset>
+        <legend>
+          <p>Gender</p>
+        </legend>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br />
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>
+          <p>Agrrements</p>
+        </legend>
+        <input type="checkbox" id="term" name="Agrrement" value="agree">
+        <label for="term">I have read all the terms</label><br />
+        <input type="checkbox" id="agree" name="Agrrement" value="yes">
+        <label for="agree">Yes, I'm agree</label>
+      </fieldset>
+
+      <div class="buttons">
+        <input type="button" id="submit" name="sign-up" value="Sign Up">
+        <input type="button" id="reset" name="reset" value="Reset">
+      </div>
+
+    </form>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <h4>sitemap</h4>
+      <div class="footer-a">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Login</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h4>Terms and Quick Links</h4>
+      <div class="footer-a">
+        <a href="#">Terms of usage</a>
+        <a href="#">Incididunt</a>
+        <a href="#">Nostrud</a>
+        <a href="#">Laboris</a>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h4>Address and Contact</h4>
+      <address>
+        Erbil, Kurdistan, Iraq<br />
+        Phone: +9647516408474 <br />
+        Email: arminshahab99@gmail.com
+      </address>
+    </div>
+  </footer>
+</body>
+
+</html>
